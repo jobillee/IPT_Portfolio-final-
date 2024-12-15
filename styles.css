@@ -1,0 +1,23 @@
+:root{
+    --primary: #e63e8f;
+    --secondary: rgb(225, 166, 121);
+    --tertiary: #c93271;
+}
+
+.nav-link{
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: var(--primary) !important;
+}
+
+.nav-link:hover {
+    color: var(--secondary) !important;
+}
+
+.badge {
+    background-color: var(--secondary) !important;
+}
+
+.progress-bar{
+    background-color: var(--tertiary) !important;
+}
